@@ -20,6 +20,16 @@ An AI-powered virtual assistant designed to enhance desktop productivity by auto
   - **GUI:** Tkinter, Electron
 - **APIs:** Various public APIs for information retrieval (weather, news, etc.)
 
+## Usage
+
+Once the application is running, you can interact with the virtual assistant through voice commands or text input. Here are some example commands:
+
+- "Alexa, Open Google Chrome"
+- "Alexa, What's the weather like today in Gandhinagar?"
+- "Alexa, What's the time"
+- "Alexa, decrease volume by 10"
+- "Alexa, where is Surat?"
+- "Alexa, take a screenshot"
 
 ## Installation
 
@@ -27,3 +37,5 @@ An AI-powered virtual assistant designed to enhance desktop productivity by auto
    ```bash
    git clone https://github.com/yourusername/virtual-desktop-assistant.git
    cd virtual-desktop-assistant
+
+   
