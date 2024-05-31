@@ -28,7 +28,7 @@ def volume_thirty():
     # playsound.playsound("sunflower-street-drumloop-85bpm-163900.mp3")
 
 def get_weather_data(city):
-    API_key = "0c06b84562efff52297a715069dba2ff"
+    API_key = "Your API Key"
     url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_key}&units=metric"
 
     response = requests.get(url).json()
@@ -87,8 +87,6 @@ if __name__ =='__main__':
                 webbrowser.open(site[1])
 
         apps = [["chrome","C:\Program Files\Google\Chrome\Application\chrome.exe"],["Packet Tracer","C:/Program Files/Cisco Packet Tracer 8.2.1/bin/PacketTracer.exe"],["telegram" ,"C:/Users/BAPS/AppData/Roaming/Telegram Desktop/Telegram.exe"],["virtual box","C:/Program Files/Oracle/VirtualBox"],["whatsapp","C:\\Program Files\\WindowsApps\\5319275A.WhatsAppDesktop_2.2409.8.0_x64__cv1g1gvanyjgm\\WhatsApp.exe"]]
-
-        # C:/Program Files/WindowsApps/5319275A.WhatsAppDesktop_2.2401.4.0_x64__cv1g1gvanyjgm/WhatsApp.exe
         for app in apps :
             if f"open {app[0]}".lower() in text.lower():
                 say(f"Opening {app[0]} DDT...")
@@ -103,8 +101,8 @@ if __name__ =='__main__':
         if "send email" in text :
             server = smtplib.SMTP('smtp.gmail.com', 587)
             server.starttls()
-            server.login('priyanshisojitra1712@gmail.com', 'bfsx otlx bpdb hluh')
-            send = server.sendmail('priyanshisojitra1712@gmail.com', 'kashishsavaliya10@gmail.com', 'Hii Tanvi , Greetings from Dipti...')
+            server.login('Sender's email', 'code')
+            send = server.sendmail('Sender's email', 'Receiver's Email', 'Hii Kashish , Greetings from Priyanshi...')
             say(send)
         if "decrease volume by 10" in text :
             volume_ten()
