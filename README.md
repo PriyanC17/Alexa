@@ -35,7 +35,7 @@ Once the application is running, you can interact with the virtual assistant thr
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/virtual-desktop-assistant.git
-   cd virtual-desktop-assistant
+   git clone https://github.com/PriyanC17/Alexa.git
+   
 
    
